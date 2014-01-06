@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6303B5F8-D30F-4DE8-BD91-D26484238E43}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ACRM</RootNamespace>
+    <AssemblyName>ACRM</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>tsp_acrm_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="data_burner">
+      <HintPath>..\..\..\..\data_burner.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ACRM_BYTE_CONVERTER.cs" />
+    <Compile Include="ACRM_DB_SETTINGS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACRM_DB_SETTINGS.Designer.cs">
+      <DependentUpon>ACRM_DB_SETTINGS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ACRM_FUNCTIONS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACRM_GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACRM_GUI.Designer.cs">
+      <DependentUpon>ACRM_GUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ACRM_LOG_MENU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACRM_LOG_MENU.Designer.cs">
+      <DependentUpon>ACRM_LOG_MENU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ACRM_OPEN_DB_SELECT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACRM_OPEN_DB_SELECT.Designer.cs">
+      <DependentUpon>ACRM_OPEN_DB_SELECT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ACRM_RDB_EPIC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACRM_RDB_EPIC.Designer.cs">
+      <DependentUpon>ACRM_RDB_EPIC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ACRM_SAVE_TAB_SELECT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACRM_SAVE_TAB_SELECT.Designer.cs">
+      <DependentUpon>ACRM_SAVE_TAB_SELECT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ACRM_SCRAMBLE_MAP.cs" />
+    <Compile Include="ACRM_THE_TEAM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACRM_THE_TEAM.Designer.cs">
+      <DependentUpon>ACRM_THE_TEAM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ACRM_BASIC_INFO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACRM_BASIC_INFO.Designer.cs">
+      <DependentUpon>ACRM_BASIC_INFO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Structures\DB_ENHANERESOURCE.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structures\DB_FIELDPROPRESOURCE_62.cs" />
+    <Compile Include="Structures\DB_FIELDPROPRESOURCE_73.cs" />
+    <Compile Include="Structures\DB_ITEMEFFECTRESOURCE.cs" />
+    <Compile Include="Structures\DB_EFFECTRESOURCE.cs" />
+    <Compile Include="Structures\DB_ITEMRESOURCE_62.cs" />
+    <Compile Include="Structures\DB_JOBRESOURCE.cs" />
+    <Compile Include="Structures\DB_MIXRESOURCE.cs" />
+    <Compile Include="Structures\DB_MODELEFFECTRESOURCE.cs" />
+    <Compile Include="Structures\DB_MONSTERMOTIONSET_62.cs" />
+    <Compile Include="Structures\DB_MONSTERMOTIONSET_O62.cs" />
+    <Compile Include="Structures\DB_MONSTERRESOURCE_62.cs" />
+    <Compile Include="Structures\DB_SKILLRESOURCE_62.cs" />
+    <Compile Include="Structures\DB_SKILLRESOURCE_73.cs" />
+    <Compile Include="Structures\DB_SKILLSTAGE.cs" />
+    <Compile Include="Structures\DB_NPCRESOURCE.cs" />
+    <Compile Include="Structures\DB_QUESTLINK.cs" />
+    <Compile Include="Structures\DB_QUESTRESOURCE_62.cs" />
+    <Compile Include="Structures\DB_SKILLTREEDISPLAY_62.cs" />
+    <Compile Include="Structures\DB_SKILLTREERESOURCE_62.cs" />
+    <Compile Include="Structures\DB_STATERESOURCE_62.cs" />
+    <Compile Include="Structures\DB_STATRESOURCE.cs" />
+    <Compile Include="Structures\DB_STRING.cs" />
+    <Compile Include="Structures\DB_SUMMONRESOURCE.cs" />
+    <Compile Include="Structures\DB_SUMMONRESOURCE_62.cs" />
+    <Compile Include="Structures\DB_SUMMONRESOURCE_4.cs" />
+    <Compile Include="Structures\DB_SUMMONRESOURCE_5.cs" />
+    <Compile Include="Structures\DB_WORLDLOCATIONRESOURCE_62.cs" />
+    <Compile Include="Structures\DB_WORLDLOCATIONRESOURCE_73.cs" />
+    <Compile Include="Structures\DB_ENHANCEFX.cs" />
+    <Compile Include="Structures\DB_TITLERESOURCE.cs" />
+    <EmbeddedResource Include="ACRM_DB_SETTINGS.resx">
+      <DependentUpon>ACRM_DB_SETTINGS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACRM_GUI.resx">
+      <DependentUpon>ACRM_GUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACRM_LOG_MENU.resx">
+      <DependentUpon>ACRM_LOG_MENU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACRM_OPEN_DB_SELECT.resx">
+      <DependentUpon>ACRM_OPEN_DB_SELECT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACRM_RDB_EPIC.resx">
+      <DependentUpon>ACRM_RDB_EPIC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACRM_SAVE_TAB_SELECT.resx">
+      <DependentUpon>ACRM_SAVE_TAB_SELECT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACRM_THE_TEAM.resx">
+      <DependentUpon>ACRM_THE_TEAM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ACRM_BASIC_INFO.resx">
+      <DependentUpon>ACRM_BASIC_INFO.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon-Folder04-Open-Yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disksave_4a90b428-e98a-4189-82cc-fd6163c92f1a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Misc-Web-Database-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\harddrive-icon2.png" />
+    <None Include="Resources\harddrive-icon1.png" />
+    <None Include="Resources\harddrive-icon.png" />
+    <None Include="Resources\Save-icon.png" />
+    <None Include="Resources\database_down.png" />
+    <None Include="Resources\open_folder_clip_art_9015.jpg" />
+    <None Include="Resources\acrm_idle_light.jpg" />
+    <None Include="Resources\acrm_active_light.png" />
+    <Content Include="tsp_acrm_icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

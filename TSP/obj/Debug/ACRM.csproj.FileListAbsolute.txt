@@ -1,0 +1,32 @@
+C:\Users\TealSky\Documents\Visual Studio 2013\Projects\ACRM\tsp_enhance_manager\bin\Debug\ACRM.exe.config
+C:\Users\TealSky\Documents\Visual Studio 2013\Projects\ACRM\tsp_enhance_manager\bin\Debug\ACRM.exe
+C:\Users\TealSky\Documents\Visual Studio 2013\Projects\ACRM\tsp_enhance_manager\bin\Debug\ACRM.pdb
+C:\Users\TealSky\Documents\Visual Studio 2013\Projects\ACRM\tsp_enhance_manager\bin\Debug\data_burner.dll
+C:\Users\TealSky\Documents\Visual Studio 2013\Projects\ACRM\tsp_enhance_manager\obj\Debug\ACRM.ACRM_DB_SETTINGS.resources
+C:\Users\TealSky\Documents\Visual Studio 2013\Projects\ACRM\tsp_enhance_manager\obj\Debug\ACRM.ACRM_GUI.resources
+C:\Users\TealSky\Documents\Visual Studio 2013\Projects\ACRM\tsp_enhance_manager\obj\Debug\ACRM.ACRM_LOG_MENU.resources
+C:\Users\TealSky\Documents\Visual Studio 2013\Projects\ACRM\tsp_enhance_manager\obj\Debug\ACRM.ACRM_SAVE_TAB_SELECT.resources
+C:\Users\TealSky\Documents\Visual Studio 2013\Projects\ACRM\tsp_enhance_manager\obj\Debug\ACRM.ACRM_THE_TEAM.resources
+C:\Users\TealSky\Documents\Visual Studio 2013\Projects\ACRM\tsp_enhance_manager\obj\Debug\ACRM.Properties.Resources.resources
+C:\Users\TealSky\Documents\Visual Studio 2013\Projects\ACRM\tsp_enhance_manager\obj\Debug\ACRM.csproj.GenerateResource.Cache
+C:\Users\TealSky\Documents\Visual Studio 2013\Projects\ACRM\tsp_enhance_manager\obj\Debug\ACRM.exe
+C:\Users\TealSky\Documents\Visual Studio 2013\Projects\ACRM\tsp_enhance_manager\obj\Debug\ACRM.pdb
+C:\Users\TealSky\Documents\Visual Studio 2013\Projects\ACRM\tsp_enhance_manager\obj\Debug\ACRM.ACRM_BASIC_INFO.resources
+C:\Users\TealSky\Documents\Visual Studio 2013\Projects\ACRM\tsp_enhance_manager\obj\Debug\ACRM.ACRM_OPEN_DB_SELECT.resources
+C:\Users\Owner\Desktop\ACRM\tsp_enhance_manager\bin\Debug\ACRM.exe.config
+C:\Users\Owner\Desktop\ACRM\tsp_enhance_manager\bin\Debug\ACRM.exe
+C:\Users\Owner\Desktop\ACRM\tsp_enhance_manager\bin\Debug\ACRM.pdb
+C:\Users\Owner\Desktop\ACRM\tsp_enhance_manager\obj\Debug\ACRM.csprojResolveAssemblyReference.cache
+C:\Users\Owner\Desktop\ACRM\tsp_enhance_manager\obj\Debug\ACRM.ACRM_DB_SETTINGS.resources
+C:\Users\Owner\Desktop\ACRM\tsp_enhance_manager\obj\Debug\ACRM.ACRM_GUI.resources
+C:\Users\Owner\Desktop\ACRM\tsp_enhance_manager\obj\Debug\ACRM.ACRM_LOG_MENU.resources
+C:\Users\Owner\Desktop\ACRM\tsp_enhance_manager\obj\Debug\ACRM.ACRM_OPEN_DB_SELECT.resources
+C:\Users\Owner\Desktop\ACRM\tsp_enhance_manager\obj\Debug\ACRM.ACRM_SAVE_TAB_SELECT.resources
+C:\Users\Owner\Desktop\ACRM\tsp_enhance_manager\obj\Debug\ACRM.ACRM_THE_TEAM.resources
+C:\Users\Owner\Desktop\ACRM\tsp_enhance_manager\obj\Debug\ACRM.Properties.Resources.resources
+C:\Users\Owner\Desktop\ACRM\tsp_enhance_manager\obj\Debug\ACRM.ACRM_BASIC_INFO.resources
+C:\Users\Owner\Desktop\ACRM\tsp_enhance_manager\obj\Debug\ACRM.csproj.GenerateResource.Cache
+C:\Users\Owner\Desktop\ACRM\tsp_enhance_manager\obj\Debug\ACRM.exe
+C:\Users\Owner\Desktop\ACRM\tsp_enhance_manager\obj\Debug\ACRM.pdb
+C:\Users\TealSky\Documents\Visual Studio 2013\Projects\ACRM\tsp_enhance_manager\obj\Debug\ACRM.ACRM_RDB_EPIC.resources
+C:\Users\TealSky\Documents\Visual Studio 2013\Projects\ACRM\tsp_enhance_manager\obj\Debug\ACRM.csprojResolveAssemblyReference.cache
